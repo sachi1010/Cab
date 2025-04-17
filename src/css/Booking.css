@@ -1,0 +1,102 @@
+
+.booking {
+  width: 100%;
+  max-width: 500px;
+  background-color: #8efafc74;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+ margin: 20px;
+}
+
+.Booking-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+.Booking-form p {
+  margin-bottom: 15px;
+}
+
+.Booking-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Booking-form input,
+.Booking-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #111111;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.Booking-form input:focus,
+.Booking-form select:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.Booking-form .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.Booking-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #050505;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Booking-form button:hover {
+  background-color: #9ea045;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Booking-form select {
+  font-size: 14px;
+}
+
+.Booking-form .selected-car-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selected-car-preview img {
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.selected-car-preview h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.selected-car-preview p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.book{
+  display: flex;
+  justify-content: center;
+  background-color: #ff9d0071;
+}

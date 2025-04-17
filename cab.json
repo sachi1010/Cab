@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Economy Class",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, magni.",
+      "price": "$10/km",
+      "image": "/images/yellow-car.png",
+      "buttonText": "Read More"
+    },
+    {
+      "id": 2,
+      "title": "Standard Class",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum...",
+      "price": "$10/km",
+      "image": "/images/yellow-car.png",
+      "buttonText": "Read More"
+    },
+    {
+      "id": 3,
+      "title": "Business Class",
+      "description": "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum...",
+      "price": "$10/km",
+      "image": "/images/yellow-car.png",
+      "buttonText": "Read More"
+    }
+  ]
+  

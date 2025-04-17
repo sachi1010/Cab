@@ -1,0 +1,131 @@
+
+.Account {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  animation: slideUp 0.8s ease-in-out;
+  background-color: #ff9d0071;
+}
+
+.Account
+form {
+  background-color: #9ef9f0;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  opacity: 0;
+  animation: fadeInForm 1s forwards;
+}
+
+.Account
+form:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.Account
+form:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.Account
+form h2 {
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+.Account
+input[type="text"],
+.Account
+input[type="email"],
+.Account
+input[type="password"] {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+.Account
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+.Account
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+.Account
+input[type="checkbox"]:hover {
+  transform: scale(1.1);
+}
+.Account
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+.Account
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Account
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+.Account
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+.Account
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.Account
+.signup-link {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.Account
+.login-page {
+  border-left: 3px solid #007bff;
+}
+
+.signup-page {
+  border-left: 3px solid #28a745;
+}
+
+/* Animations */
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInForm {
+  to { opacity: 1; }
+}

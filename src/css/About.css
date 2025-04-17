@@ -1,0 +1,133 @@
+
+.about {
+  padding: 50px 20px;
+  background-image: url('../images/About.webp'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.overlay-content h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.box p {
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* Additional Section */
+.about-details {
+  margin: 50px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.about-details .section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-details h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: wheat;
+}
+
+.about-details p {
+  font-size: 20px;
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Customer Support Section */
+.customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.customer-content {
+  width: 50%;
+  text-align: left;
+}
+
+.customer-content h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.customer-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.customer-content p {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.customer img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .grid-content {
+    grid-template-columns: 1fr;
+  }
+
+  .customer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .customer-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .customer img {
+    width: 250px;
+    height: 250px;
+  }
+}

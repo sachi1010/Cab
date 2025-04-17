@@ -1,0 +1,83 @@
+.footer {
+    background-color: #222;
+    color: #eee;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    gap: 30px;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+  }
+  
+  .footer-section h3,
+  .footer-section h4 {
+    margin-bottom: 15px;
+    color: #bd8b04;
+  }
+  
+  .footer-section p,
+  .footer-section ul {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #bde707;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+  }
+.empty{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(249, 191, 3);
+}  
+.about-content .empty{
+    margin-top: -5px;
+}
+.social-media-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-media-footer .bi{
+  font-size: 1.5rem;
+}
+.bi-instagram{
+  color: #ff69b4;
+}
+.bi-facebook{
+  color: #3e65b8;
+}
+.bi-whatsapp{
+  color: #25d366;
+}
+.bi-phone{
+  color: #69ff8a;
+}

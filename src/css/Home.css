@@ -1,13 +1,14 @@
 
 /* Hero Section */
 .hero {
-  background-image: url(./images/bg.jpg);
+  background-image: url("/images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height:600px;
+  height: 600px;
   width: 100%;
   position: relative;
 }
+
 
 .overlay {
   position: absolute;
